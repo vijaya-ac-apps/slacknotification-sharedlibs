@@ -2,6 +2,7 @@ def call(String buildStatus = 'STARTED') {
   // build status of null means successful
   //This condition which we are checking weather buildStatus is SUCCESSFULL or not.
  //This  updated to show the Eclipse with GitHub demo
+ //this line was updated by yvl
   buildStatus =  buildStatus ?: 'SUCCESS'
 
   // Default values
